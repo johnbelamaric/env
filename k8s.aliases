@@ -6,3 +6,7 @@ alias kgn='kubectl get nodes'
 alias kgp='kubectl get pods'
 alias kgs='kubectl get services'
 alias kgd='kubectl get deployments'
+
+alias ks='kubectl $1 --namespace=kube-system'
+alias ksg='kubectl get --namespace=kube-system'
+alias ksd='kubectl describe --namespace=kube-system'
